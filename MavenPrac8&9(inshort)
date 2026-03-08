@@ -1,0 +1,32 @@
+**Practical - 8**
+
+1. mvn  
+2. maven: archetype -> version  
+3. maven: archetype -> quickstart -> 2328  
+4. 3; enter 3
+5. 9; enter 9  
+6. GroupId -> com.college 
+7. artifactId -> MavenDemo  
+8. Version -> Snapshot - just enter  
+9. Package -> com.example - just enter 
+10. Y : enter Y  
+11. cd MavenDemo  
+12. mvn compile  
+13. mvn test  
+14. mvn package  
+15. java -cp target/mavenDemo-1.0-SNAPSHOT.jar com.example.App  
+
+**Practical 9**
+
+1. mvn archetype -> version  
+2. Will load 3000 file -> find number of your project in notepad by ctrl + V + C  for webapp
+3. 2328 : 2674  
+4. last version 5:5
+5. groupId : com.practical
+6. artifactId : practical9
+7. version -> Snapshot -> Enter  
+8. Package -> com.practical -> Enter
+9. Y : y
+10. Cd -> practical9
+11. mvn compile  
+12. mvn package
