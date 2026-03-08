@@ -1,0 +1,32 @@
+**Practical - 8**
+
+1. mvn  
+2. maven: archetype -> version  
+3. maven: archetype -> quickstart -> 2328  
+4. 3; 8 then 9  
+5. 9; then 9  
+6. GroupId -> com.example  
+7. artifactId -> mavenDemo  
+8. Version -> Snapshot - fork  
+9. Package -> com.example - fork  
+10. Y : fork Y  
+11. cd mavenDemo  
+12. mvn compile  
+13. mvn test  
+14. mvn package  
+15. java -cp target/mavenDemo-1.0-SNAPSHOT.jar com.example.App  
+
+**Practical 9**
+
+1. mvn archetype -> version  
+2. move 3000 -> find number of your project in notepad by ctrl + V + C  
+3. 2328 : 2674  
+4. last version S:\S  
+5. groupId : com.prachod  
+6. artifactId : pom.xml  
+7. version -> Snapshot -> Env  
+8. Package -> com.prachod -> Env  
+9. Y : 34  
+10. Cd -> products  
+11. mvn compile  
+12. mvn package
