@@ -1,0 +1,22 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Calculator App</title>
+</head>
+<body>
+<form action="CalculatorServlet" method="get">
+Enter First Number: <input type="text" name="txtN1"><br>
+Enter Second Number: <input type="text" name="txtN2"><br>
+Select an Operation
+<input type="radio" name="opr" value="+">ADDITION
+<input type="radio" name="opr" value="-">SUBSTRACTION
+<input type="radio" name="opr" value="*">MULTIPLY
+<input type="radio" name="opr" value="/">DIVIDE <br>
+<input type="reset">
+<input type="submit" value="Calculate">
+</form>
+</body>
+</html>
